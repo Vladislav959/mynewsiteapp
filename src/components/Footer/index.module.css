@@ -1,0 +1,20 @@
+.footer{
+    position:absolute;
+    bottom:120px;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.footer p{
+    font-size:0.9em;
+    color:rgb(65, 65, 65);
+    text-align: center;
+}
+@media(max-width:600px){
+    .footer{
+        position:static;
+        margin:30px 0;
+    }
+}
